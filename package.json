@@ -1,0 +1,32 @@
+{
+  "name": "mean",
+  "version": "1.0.0",
+  "description": "mean angular",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \" Error: no test \"",
+    "start": "node app"
+  },
+  "dependencies":{
+    "express":"*",
+    "mongoose":"*",
+    "bcryptjs":"*", 
+    "cors":"*",
+    "jsonwebtoken":"*", 
+    "body-parser":"*", 
+    "passport":"*", 
+    "passport-jwt":"*"
+
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enavu/mean.git"
+  },
+  "author": "enavu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enavu/mean/issues"
+  },
+  "homepage": "https://github.com/enavu/mean#readme"
+}
