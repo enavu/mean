@@ -1,4 +1,4 @@
 module.exports = {
-    database : 'mongodb://enavu:1234@ds131512.mlab.com:31512/mytask_ena',
+    database : 'mongodb://enavu:1234@ds147902.mlab.com:47902/mean',
     secret:'yourSecret'
 }
