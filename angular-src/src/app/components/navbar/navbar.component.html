@@ -11,12 +11,12 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a [routerLink]="['/']">Home</a></li>
-              <li><a [routerLink]="['/profile']">Profiles</a></li>
-              <li><a [routerLink]="['/']">Contact</a></li>
+              <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['/']">Home</a></li>
+              <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['/dashboard']">Dashboard</a></li>
+              <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['/profile']">Profile</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li><a [routerLink]="['/login']">Login</a></li>
+              <li [routerLinkActive]="['active']"[routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['/login']">Login</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
