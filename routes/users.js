@@ -52,7 +52,7 @@ router.post('/authenticate', (req, res, next) => {
                 }
             });   
         }else{
-            return res.json({success:false, msg: "Password doesn't matchs"});
+            return res.json({success:false, msg: "Password doesn't match"});
             
         } 
         
