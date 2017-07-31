@@ -60,13 +60,9 @@ router.post('/authenticate', (req, res, next) => {
         })
 });
 
-//Portfolio
-router.get('/portfolio',passport.authenticate('jwt', {session:false}) ,(req, res, next) => {
-    res.send('PORTFOLIO');
-});
 
-//Portfolio
+//profile
 router.get('/profile',passport.authenticate('jwt', {session:false}) ,(req, res, next) => {
-    res.send('profile');
+    res.json({user:req.user});
 });
 module.exports = router;
