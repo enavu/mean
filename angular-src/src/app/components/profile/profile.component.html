@@ -1,7 +1,7 @@
-<div ng-if='user'>
-<h2 class='page header'></h2>
+<div *ngIf="user">
+<h2 class="page header">{{user.name}}</h2>
 <ul class='list group'>
-  <li class='list-group-item'></li>
-  <li class='list-group-item'></li>
+  <li class='list-group-item'>{{user.email}}</li>
+  <li class='list-group-item'>{{user.username}}</li>
 </ul>
 </div>
